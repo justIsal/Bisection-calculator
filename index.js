@@ -62,7 +62,6 @@ getSubmit.addEventListener('click',(a)=> {
     }else {
         let a = bisection(x1,x2,(x1+x2)/2,e,1);
         array.push(a);
-        array.pop();
         for(const index of array){
             let b = makeTodo(index);
             getElement.append(b);
