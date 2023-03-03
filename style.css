@@ -97,6 +97,7 @@ footer {
         background-color: #ffffff;
     }
     section {
+        height: 100vh;
         padding: 0;
     }
     .container {
@@ -107,6 +108,9 @@ footer {
     .container header,
     .container main form {
         padding: 10px 0;
+    }
+    .container .btn{
+        border-radius: 5px;
     }
     .container main form .form-group {
         padding: 0 10px;
