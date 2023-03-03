@@ -81,10 +81,20 @@ table th,
 table td {
     background-color: #cfcfcf;
 }
+footer {
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    margin-top: 250px;
+    background-color: #ec933f;
+    line-height: 40px;
+    color: #eeeeee;
+}
 @media screen and (max-width: 768px) {
     body{
         font-size: 45%;
-        background-color: #ff2b2b;
+        background-color: #ffffff;
     }
     section {
         padding: 0;
@@ -103,5 +113,8 @@ table td {
     }
     table{
         width: 100%;
+    }
+    footer {
+        background-color: #1c8bf3;
     }
 }
